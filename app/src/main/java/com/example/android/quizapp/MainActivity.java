@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void displayScore(View view) {
         int score = calculateScore();
-        String scoreMessage = "Your score is " + score + " out of 5";
+        String scoreMessage = getString(R.string.final_score,score);
         Toast.makeText(this, scoreMessage,
                 Toast.LENGTH_SHORT).show();
 

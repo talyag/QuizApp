@@ -23,10 +23,10 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="8dp"
             android:layout_marginTop="16dp"
-            android:text="@string/quiz_title"
-            android:textColor="@color/colorPrimary"
             android:fontFamily="@font/poiret_one"
+            android:text="@string/quiz_title"
             android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
             android:textSize="34sp" />
 
         <View style="@style/Divider" />
@@ -37,8 +37,8 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="8dp"
             android:layout_marginTop="8dp"
-            android:text="@string/quiz_description"
             android:fontFamily="@font/poiret_one"
+            android:text="@string/quiz_description"
             android:textSize="20sp" />
 
         <View style="@style/Divider" />
@@ -54,8 +54,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:textSize="16sp"
-                android:text="@string/question_1" />
+                android:text="@string/question_1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
 
             <RadioGroup
                 android:layout_width="wrap_content"
@@ -98,51 +99,53 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:textSize="16sp"
-                android:text="@string/question_2"/>
-            
+                android:text="@string/question_2"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+
             <CheckBox
                 android:id="@+id/check_ans2_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="8dp"
-                android:text="@string/answer_wheat"/>
+                android:text="@string/answer_wheat" />
 
             <CheckBox
                 android:id="@+id/check_ans2_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="8dp"
-                android:text="@string/answer_dial"/>
+                android:text="@string/answer_dial" />
 
             <CheckBox
                 android:id="@+id/check_ans2_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="8dp"
-                android:text="@string/answer_army"/>
+                android:text="@string/answer_army" />
 
             <CheckBox
                 android:id="@+id/check_ans2_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="8dp"
-                android:text="@string/answer_time"/>
+                android:text="@string/answer_time" />
 
             <View style="@style/Divider" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:text="@string/question_3"/>
+                android:text="@string/question_3"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
 
             <EditText
                 android:id="@+id/number_ans3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="@string/number_hint"
-                android:inputType="number"/>
+                android:inputType="number" />
 
             <View style="@style/Divider" />
 
@@ -150,22 +153,23 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/bellhop"/>
+                android:src="@drawable/bellhop" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:textSize="16sp"
-                android:text="@string/question_4"/>
+                android:layout_marginTop="8dp"
+                android:text="@string/question_4"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
 
             <EditText
                 android:id="@+id/text_ans4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="@string/text_hint"
-                android:inputType="textCapWords"/>
+                android:inputType="textCapWords" />
 
 
             <View style="@style/Divider" />
@@ -174,8 +178,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
-                android:textSize="16sp"
-                android:text="@string/question_5" />
+                android:text="@string/question_5"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
 
             <RadioGroup
                 android:layout_width="wrap_content"
@@ -187,28 +192,28 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingLeft="8dp"
-                    android:text="@string/answer_rockwell"/>
+                    android:text="@string/answer_rockwell" />
 
                 <RadioButton
                     android:id="@+id/radio_ans5_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingLeft="8dp"
-                    android:text="@string/answer_wyeth"/>
+                    android:text="@string/answer_wyeth" />
 
                 <RadioButton
                     android:id="@+id/radio_ans5_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingLeft="8dp"
-                    android:text="@string/answer_hopper"/>
+                    android:text="@string/answer_hopper" />
 
                 <RadioButton
                     android:id="@+id/radio_ans5_4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingLeft="8dp"
-                    android:text="@string/answer_sargent"/>
+                    android:text="@string/answer_sargent" />
 
             </RadioGroup>
 
