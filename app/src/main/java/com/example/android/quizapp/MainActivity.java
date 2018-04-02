@@ -103,6 +103,8 @@ public class MainActivity extends AppCompatActivity {
         if (ans2_1 == true && ans2_2 == false && ans2_3 == true && ans2_4 == false) {
             ansQ2 = true;
 
+        } else {
+            ansQ2 = false;
         }
 
         return ansQ2;
@@ -116,15 +118,16 @@ public class MainActivity extends AppCompatActivity {
      */
 
     private boolean checkQ3() {
-        boolean ansQ3 = false;
+        boolean ansQ3;
 
         EditText ansThreeText = (EditText) findViewById(R.id.number_ans3);
-        String ansThreeStr = ansThreeText.getText().toString();
-        int ans3 = Integer.parseInt(ansThreeStr);
+        String ans3 = ansThreeText.getText().toString();
 
-        if (ans3 == 322) {
+        if (ans3.equals("322")) {
             ansQ3 = true;
 
+        } else {
+            ansQ3 = false;
         }
 
         return ansQ3;
