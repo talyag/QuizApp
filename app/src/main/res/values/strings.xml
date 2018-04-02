@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="quiz_title">J.C. Leyendecker Quiz</string>
+    <string name="quiz_description">A quiz about artist J.C. Leyendecker</string>
+    <string name="question_1">Which iconic trade character was created by Leyendecker in 1905?</string>
+    <string name="answer_gatsby">The Great Gatsby</string>
+    <string name="answer_santa">Santa Claus</string>
+    <string name="answer_arrow">The Arrow Collar Man</string>
+    <string name="answer_father">Father Time</string>
+    <string name="question_2">Leyendecker painted advertisements for which of the following clients? Check all that apply.</string>
+    <string name="answer_wheat">Cream of Wheat</string>
+    <string name="answer_dial">Dial Soap</string>
+    <string name="answer_army">U.S. Army</string>
+    <string name="answer_time">Time Magazine</string>
+    <string name="question_3">How many magazine covers did Leyendecker paint for the <i>Saturday Evening Post</i> over the entirety of his career?</string>
+    <string name="number_hint">123</string>
+    <string name="question_4">This illustration was created to celebrate the proclamation year of what holiday?</string>
+    <string name="text_hint">Type your answer</string>
+    <string name="question_5">Leyendecker was a friend and mentor to which American painter?</string>
+    <string name="answer_rockwell">Norman Rockwell</string>
+    <string name="answer_wyeth">Andrew Wyeth</string>
+    <string name="answer_hopper">Edward Hopper</string>
+    <string name="answer_sargent">John Singer Sargent</string>
+    <string name="submit">submit</string>
+</resources>
