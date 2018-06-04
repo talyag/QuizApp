@@ -8,7 +8,7 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_margin="@dimen/layout_margin"
         android:orientation="vertical">
 
         <ImageView
@@ -21,8 +21,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginBottom="@dimen/title_padding_bottom"
+            android:layout_marginTop="@dimen/title_padding_top"
             android:fontFamily="@font/poiret_one"
             android:text="@string/quiz_title"
             android:textAllCaps="true"
@@ -35,8 +35,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginBottom="@dimen/subtitle_padding_bottom"
+            android:layout_marginTop="@dimen/subtitle_padding_top"
             android:fontFamily="@font/poiret_one"
             android:text="@string/quiz_description"
             android:textSize="20sp" />
@@ -53,7 +53,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="@dimen/question_padding"
                 android:text="@string/question_1"
                 android:textColor="@color/colorPrimary"
                 android:textSize="16sp" />
@@ -61,34 +61,34 @@
             <RadioGroup
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp">
+                android:layout_marginBottom="@dimen/radio_group_padding">
 
                 <RadioButton
                     android:id="@+id/radio_ans1_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="8dp"
+                    android:paddingLeft="@dimen/radio_left"
                     android:text="@string/answer_gatsby" />
 
                 <RadioButton
                     android:id="@+id/radio_ans1_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="8dp"
+                    android:paddingLeft="@dimen/radio_left"
                     android:text="@string/answer_santa" />
 
                 <RadioButton
                     android:id="@+id/radio_ans1_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="8dp"
+                    android:paddingLeft="@dimen/radio_left"
                     android:text="@string/answer_arrow" />
 
                 <RadioButton
                     android:id="@+id/radio_ans1_4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="8dp"
+                    android:paddingLeft="@dimen/radio_left"
                     android:text="@string/answer_father" />
 
             </RadioGroup>
@@ -98,7 +98,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="@dimen/question_padding"
                 android:text="@string/question_2"
                 android:textColor="@color/colorPrimary"
                 android:textSize="16sp" />
@@ -107,28 +107,28 @@
                 android:id="@+id/check_ans2_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="8dp"
+                android:paddingLeft="@dimen/check_left"
                 android:text="@string/answer_wheat" />
 
             <CheckBox
                 android:id="@+id/check_ans2_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="8dp"
+                android:paddingLeft="@dimen/check_left"
                 android:text="@string/answer_dial" />
 
             <CheckBox
                 android:id="@+id/check_ans2_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="8dp"
+                android:paddingLeft="@dimen/check_left"
                 android:text="@string/answer_army" />
 
             <CheckBox
                 android:id="@+id/check_ans2_4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="8dp"
+                android:paddingLeft="@dimen/check_left"
                 android:text="@string/answer_time" />
 
             <View style="@style/Divider" />
@@ -137,6 +137,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/question_3"
+                android:layout_marginBottom="@dimen/question_padding"
                 android:textColor="@color/colorPrimary"
                 android:textSize="16sp" />
 
@@ -158,8 +159,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginBottom="@dimen/question_padding"
+                android:layout_marginTop="@dimen/question_padding"
                 android:text="@string/question_4"
                 android:textColor="@color/colorPrimary"
                 android:textSize="16sp" />
@@ -177,7 +178,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="@dimen/question_padding"
                 android:text="@string/question_5"
                 android:textColor="@color/colorPrimary"
                 android:textSize="16sp" />
@@ -185,34 +186,34 @@
             <RadioGroup
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp">
+                android:layout_marginBottom="@dimen/radio_group_padding">
 
                 <RadioButton
                     android:id="@+id/radio_ans5_1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="8dp"
+                    android:paddingLeft="@dimen/radio_left"
                     android:text="@string/answer_rockwell" />
 
                 <RadioButton
                     android:id="@+id/radio_ans5_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="8dp"
+                    android:paddingLeft="@dimen/radio_left"
                     android:text="@string/answer_wyeth" />
 
                 <RadioButton
                     android:id="@+id/radio_ans5_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="8dp"
+                    android:paddingLeft="@dimen/radio_left"
                     android:text="@string/answer_hopper" />
 
                 <RadioButton
                     android:id="@+id/radio_ans5_4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="8dp"
+                    android:paddingLeft="@dimen/radio_left"
                     android:text="@string/answer_sargent" />
 
             </RadioGroup>
@@ -224,7 +225,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginBottom="32dp"
+                android:layout_marginBottom="@dimen/bottom_margin"
                 android:onClick="displayScore"
                 android:text="@string/submit" />
 
