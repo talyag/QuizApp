@@ -22,5 +22,7 @@
     <string name="answer_hopper">Edward Hopper</string>
     <string name="answer_sargent">John Singer Sargent</string>
     <string name="submit">submit</string>
+    <string name="mothers_day_apostrophe">mother\'s day</string>
+    <string name="mothers_day">mothers day</string>
     <string name="final_score">Your score is <xliff:g id="number" example="5">%d</xliff:g> out of 5</string>
 </resources>
